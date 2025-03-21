@@ -47,7 +47,7 @@ const sendVerificationEmail = async (email, verificationToken) => {
     from: "Amazon",
     to: email,
     subject: "Email Verification",
-    text: `Please click the following link to verify your email: http://localhost:8000/verify/${verificationToken}`,
+    text: `Please click the following link to verify your email: https://ecommerce-api-mauve-nine.vercel.app/verify/${verificationToken}`,
   };
 
   // Send the email
